@@ -143,3 +143,21 @@ form {
   padding-bottom: 0.2rem;
   border-bottom: 2px solid #fc6767;
 }
+
+@media (max-width: 700px) {
+  .form-container::before {
+    height: 10rem;
+  }
+
+  .form-heading {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  form {
+    border-radius: initial;
+    transform: initial;
+    box-shadow: initial;
+    margin: 1rem;
+  }
+}
