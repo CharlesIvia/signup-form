@@ -1,3 +1,5 @@
+/* Initial styling */
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 * {
@@ -14,6 +16,8 @@ html {
 body {
   background-color: rgba(218, 34, 255, 0.1);
 }
+
+/* Form container styling */
 
 #wrapper {
   width: 90%;
@@ -47,6 +51,8 @@ body {
   border-bottom-right-radius: 100%;
   z-index: -1;
 }
+
+/* Form styling */
 
 .form-heading {
   color: white;
@@ -87,6 +93,8 @@ form {
   color: #fc6767;
 }
 
+/* Bar stlying and animation */
+
 .input-group .bar {
   position: absolute;
   left: 0;
@@ -120,6 +128,8 @@ form {
   border-radius: 3rem;
 }
 
+/* Button styling */
+
 .input-group button:focus,
 .input-group button:hover {
   background: linear-gradient(to right, #fc6767, #ec008c);
@@ -143,6 +153,8 @@ form {
   padding-bottom: 0.2rem;
   border-bottom: 2px solid #fc6767;
 }
+
+/* Responsiveness */
 
 @media (max-width: 700px) {
   .form-container::before {
